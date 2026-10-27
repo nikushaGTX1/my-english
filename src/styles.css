@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --yellow: #ffd60a;
+  --yellow-soft: #fff6c7;
+  --blue: #1d4ea3;
+  --blue-dark: #12336e;
+  --red: #d7263d;
+  --ink: #1a1f36;
+  --muted: #5a6075;
+  --radius: 22px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: 'Noto Sans Georgian', system-ui, sans-serif;
+  color: var(--ink);
+  background: #fff;
+  line-height: 1.6;
+}
+h1, h2, h3 { font-family: 'Noto Sans Georgian', sans-serif; line-height: 1.25; margin: 0 0 .5em; overflow-wrap: break-word; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
